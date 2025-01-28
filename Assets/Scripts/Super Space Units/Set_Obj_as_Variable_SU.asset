@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Set_Obj_as_Variable_SU
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[{"hasDefaultValue":true,"defaultValue":{"$content":"Coin(respawning)","$type":"System.String"},"_type":"System.String","key":"NameOfVariable","label":"NameOfVariable","summary":null,"hideLabel":false}],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-21.0,"y":-122.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-480.0,"y":-324.0},"guid":"8703c53b-638f-4855-af32-c650859a9225","$version":"A","$type":"Unity.VisualScripting.Start","$id":"10"},{"defaultValues":{},"position":{"x":-480.0,"y":-204.0},"guid":"3725fcf4-b3ba-4e63-bd31-de54340b2845","$version":"A","$type":"Unity.VisualScripting.GraphInput","$id":"12"},{"defaultValues":{},"position":{"x":-480.0,"y":-84.0},"guid":"88b9b8c2-456d-4843-959e-09b65d19e671","$version":"A","$type":"Unity.VisualScripting.This","$id":"14"},{"kind":"Scene","defaultValues":{"name":{"$content":"","$type":"System.String"}},"position":{"x":-204.0,"y":-264.0},"guid":"198acc6f-9aed-4acb-b3e1-3a32a61d0e2e","$version":"A","$type":"Unity.VisualScripting.SetVariable","$id":"16"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"16"},"destinationKey":"assign","guid":"620d4ab9-3a0a-46ce-ae7c-717f5a7db8a1","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"NameOfVariable","destinationUnit":{"$ref":"16"},"destinationKey":"name","guid":"109a47b2-2cdc-4059-b9a5-c3c6cdb8c102","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"self","destinationUnit":{"$ref":"16"},"destinationKey":"input","guid":"05fc57ea-d046-42db-94e2-ad3253f49565","$type":"Unity.VisualScripting.ValueConnection"},{"position":{"xMin":-589.0,"yMin":-408.0,"xMax":-23.0,"yMax":22.0},"label":"Creates
+      scene variable","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"3250482d-0c51-40fd-ab73-6d73cc3a2ec6","$version":"A","$type":"Unity.VisualScripting.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []
