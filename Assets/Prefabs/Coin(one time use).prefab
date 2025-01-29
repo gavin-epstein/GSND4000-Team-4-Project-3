@@ -139,8 +139,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Coin_Increase","value":{"$content":1,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Coin_Type","value":{"$content":"Desctructible","$type":"System.String"},"typeHandle":{"Identification":"System.String,
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"CoinValue","value":{"$content":1,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &6977336051883272192
@@ -158,4 +157,4 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: 0400df3847df40c4fb8c07031fd5b1af, type: 2}
+    - {fileID: 11400000, guid: de7958a154cd3bf4bbb4e90b9480829b, type: 2}
